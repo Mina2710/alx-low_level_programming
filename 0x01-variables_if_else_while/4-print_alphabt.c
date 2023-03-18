@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+* main - prints alphabet but q and e
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 char c = 'a';
@@ -10,7 +15,8 @@ continue;
 }else{
 putchar(c);
 c++;
-}}
+}
+}
 putchar('\n');
 return(0);
 }
