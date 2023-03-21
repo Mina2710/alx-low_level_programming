@@ -12,6 +12,6 @@ for (i = 0; i < 8; i++)
 {
 _putchar(str[i]);
 }
-printf("%s","\n");
+_putchar('\n');
 return (0);
 }
