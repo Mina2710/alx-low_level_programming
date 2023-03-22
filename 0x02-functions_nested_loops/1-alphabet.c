@@ -1,16 +1,15 @@
-#include "main.h"
-/**
-* print_alphabet - Print alphabet in lowercase
-* kosomkm 
-* Return: Nothing to return
-*/
-void print_alphabet(void)
-{
-int alpha = 'a';
-while (alpha <= 'z')
-{
-_putchar(alpha);
-alpha++;
+#include <stdio.h>
+
+void print_alphabet(void) {
+char letter = 'a';
+while (letter <= 'z') {
+_putchar(letter);
+letter++;
 }
 _putchar('\n');
+}
+
+int main() {
+print_alphabet();
+return 0;
 }
