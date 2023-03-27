@@ -7,12 +7,8 @@
 * Return: Nothing
 */
 
-void swap_int(int *a, int *b)
-{
-int temp;
-
-temp = *a;
-*a = *b;
-*b = temp;
+void swap_int(int *a, int *b) {
+int temp = *a;  // store the value pointed to by a in a temporary variable
+*a = *b;        // copy the value pointed to by b into the memory location pointed to by a
+*b = temp;      // copy the value stored in the temporary variable into the memory location pointed to by b
 }
-
